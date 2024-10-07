@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg id="chess" name="chess" height="580" width="1250" style="background:rgb(25, 169, 212)">
+<rect x="370" y="217" height="250" width="340" rx="15" ry="15"></rect>
+<ellipse cx="380" cy="250" rx="30" ry="15"></ellipse>
+<rect x="359" y="250" height="80" width="12" rx="20" ry="10"></rect>
+<ellipse cx="365" cy="280" rx="15" ry="10"></ellipse>
+<ellipse cx="365" cy="299" rx="10" ry="10"></ellipse>
+
+<circle cx="390" cy="470" r="20"></circle>
+<ellipse cx="390" cy="490" rx="20" ry="10"></ellipse>
+<rect x="380" y="490" height="50" width="20" rx="20"></rect>
+<ellipse cx="390" cy="520" rx="15" ry="8"></ellipse>
+
+
+<circle cx="690" cy="470" r="20"></circle>
+<ellipse cx="690" cy="490" rx="20" ry="10"></ellipse>
+<rect x="680" y="490" height="50" width="20" rx="20"></rect>
+<ellipse cx="690" cy="520" rx="15" ry="8"></ellipse>
+
+
+<rect x="380" y="200" height="240" width="340" fill="rgb(232, 49, 36)" rx="10" ry="10"></rect>    
+<radialgradient id="lgrd" cx="50%" cy="50%" r="50%" fx="50%" fy="50%"  >
+    <stop offset="0%" stop-color="white"></stop>
+    <stop offset="100%" stop-color="green"></stop>
+</radialgradient>           
+<rect x="400" y="220" height="200" width="300" fill="url(#lgrd)">
+             
+  <!-- <animate attributename="fill" attributetype="radialgradient" begin="0s" from="green" to="url(#lgrd)" dur="3s" fill="freeze"></animate> -->
+</rect>
+
+  
+<line x1="400" y1="217" x2="700" y2="217" stroke="white" stroke-width="2"></line>
+<line x1="400" y1="420" x2="700" y2="420" stroke="white" stroke-width="2"></line>
+<line x1="400" y1="217" x2="400" y2="420" stroke="white" stroke-width="2"></line>
+<line x1="700" y1="217" x2="700" y2="420" stroke="white" stroke-width="2"></line>
+
+<circle cx="393" cy="215" r="12" fill="white"></circle>
+<circle cx="391" cy="215" r="10"></circle>
+<circle cx="550" cy="215" r="12" fill="white"></circle>
+
+        <circle cx="552" cy="215" r="10"></circle>
+        <circle cx="700" cy="215" r="12" fill="white"></circle>
+
+        <circle cx="702" cy="215" r="10"></circle>
+        <circle cx="700" cy="418" r="12" fill="white"></circle>
+
+        <circle cx="702" cy="418" r="10"></circle>
+        <circle cx="550" cy="426" r="12" fill="white"></circle>
+
+        <circle cx="552" cy="426" r="10"></circle>
+        <circle cx="393" cy="426" r="12" fill="white"></circle>
+
+        <circle cx="394" cy="426" r="10"></circle>
+
+        <!-- middle portion -->
+         <rect x="410" y="320" height="5" width="140" rx="5" ry="23">
+            <animate attributename="x" attributetype="xml" from="410" to="445" begin="click" dur="1s" fill="freeze" id="A"></animate>
+
+         </rect>
+    <circle cx="595" cy="300" r="10" fill="orange">
+        <animate attributename="cx" attributetype="xml" from="595" to="500" begin="A.end" dur="3s" fill="freeze"></animate>
+    </circle>
+    <circle cx="595" cy="280" r="10" fill="blue">
+        <animate attributename="cy" attributetype="xml" from="280" to="350" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="595" cy="320" r="10" fill="red">
+        <animate attributename="cx" attributetype="xml" from="595" to="650" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="595" cy="340" r="10" fill="silver">
+        <animate attributename="cy" attributetype="xml" from="340" to="390" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="595" cy="360" r="10" fill="aqua">
+        <animate attributename="cx" attributetype="xml" from="595" to="410" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="615" cy="293" r="10" fill="crimson">
+        <animate attributename="cy" attributetype="xml" from="293" to="240" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="615" cy="313" r="10" fill="white">
+        <animate attributename="cx" attributetype="xml" from="615" to="640" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="615" cy="333" r="10" fill="lime">
+        <animate attributename="cx" attributetype="xml" from="615" to="635" begin="A.end" dur="3s" fill="freeze"></animate>
+        <animate attributename="cy" attributetype="xml" from="333" to="230" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="615" cy="353" r="10" fill="white">
+        <animate attributename="cy" attributetype="xml" from="353" to="390" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="635" cy="305" r="10" fill="purple">
+        <animate attributename="cx" attributetype="xml" from="635" to="690" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="635" cy="325" r="10" fill="blue">
+        <animate attributename="cy" attributetype="xml" from="325" to="400" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="635" cy="345" r="10" fill="orange">
+        <animate attributename="cx" attributetype="xml" from="635" to="690" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <circle cx="655" cy="325" r="10" fill="pink">
+        <animate attributename="cy" attributetype="xml" from="325" to="410" begin="A.end" dur="3s" fill="freeze"></animate>
+
+    </circle>
+    <text x="800" y="300" font-size="40" stroke="orange" fill="white">STRIKE!!
+        <animatetransform attributename="transform" type="scale" from="1 1" to="1.1 1.1" begin="A.end" dur="6s" repeatecount="indefinite"></animatetransform> 
+    </text>
+
+    <!-- top portion -->
+     <line x1="480" y1="0" x2="480" y2="90" stroke="rgb(220, 198, 198)" stroke-width="2"></line>
+     <ellipse cx="480" cy="90" rx="5" ry="7" stroke="rgb(220, 198, 198)" fill="rgb(180, 168, 168)"></ellipse>
+     <line x1="550" y1="0" x2="550" y2="90" stroke="rgb(220, 198, 198)" stroke-width="2"></line>
+     <ellipse cx="550" cy="90" rx="5" ry="7" stroke="rgb(220, 198, 198)" fill="rgb(180, 168, 168)"></ellipse>
+
+     <line x1="620" y1="0" x2="620" y2="90" stroke="rgb(220, 198, 198)" stroke-width="2"></line>
+     <ellipse cx="620" cy="90" rx="5" ry="7" stroke="rgb(220, 198, 198)" fill="rgb(180, 168, 168)"></ellipse>
+
+     <polyline points="400,120,450,90,650,90,690,120" fill="rgb(220, 198, 198)"></polyline>
+<rect x="400" y="120" height="10" width="290" fill="rgb(180, 168, 168)"></rect>
+<rect x="420" y="130" height="15" width="250" rx="5" ry="10" fill="rgb(146, 125, 125)">
+    <animate attributename="fill" attributetype="css" begin="1s" from="rgb(146, 125, 125)" to="white" dur="3s" fill="freeze"></animate>
+</rect>   
+</svg>
+</body>
+</html>
